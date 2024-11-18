@@ -1,0 +1,16 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply p-0 m-0 box-border;
+}
+body{
+   @apply font-body2 
+}
+
+.inp{
+  @apply w-full border-none p-1 outline-none text-sm resize-none 
+}
